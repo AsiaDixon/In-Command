@@ -1,0 +1,29 @@
+@tailwind preflight;
+/*custom headers*/
+.header{
+	@apply .bg-green .p-4 .text-white;
+}
+
+@screen md{
+	.header{
+		@apply .flex .items-center .justify-between;
+	}
+}
+
+/*custom nav links*/
+
+.nav-link{
+	@apply .block  .py-4  .no-underline  .text-white; 
+}
+.nav-link:hover{
+		@apply .underline .text-grey-light;
+}
+@screen md{
+	.nav-link{
+		@apply .inline .ml-8 .p-0;
+	}
+}
+
+
+@tailwind utilities;
+
