@@ -2,18 +2,20 @@
 
 
 $nav_list = [
-	'',
+	'badges',
 	'alerts',
 	'buttons',
 	'cards',
-	'typography'
+	'typography',
+	'navigation',
+	'header'
 ];
 
 sort($nav_list);
 
 function makeNav($the_navs) {
 
-	echo '<nav>';
+	echo '<nav :class="{ hidden: showMenu }" class="md:block">';
        echo '<ul class="verticalAlign list-reset text-2xl">';
 			foreach($the_navs as $nav) {
 				echo '<li><a class="nav-link" href="'.$nav.'.php">'.ucfirst($nav).'</a></li>';
