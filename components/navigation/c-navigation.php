@@ -1,3 +1,0 @@
-<navigation class="">
-  testing
-</navigation>

@@ -603,7 +603,7 @@ button,
   padding-top: 1rem;
   padding-bottom: 1rem;
   text-decoration: none;
-  color: #fff;
+  color: #4dc0b5;
 }
 
 .nav-link:hover {
@@ -2618,6 +2618,10 @@ button,
   margin: 2rem;
 }
 
+.m-12 {
+  margin: 3rem;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -2694,6 +2698,16 @@ button,
 .mx-8 {
   margin-left: 2rem;
   margin-right: 2rem;
+}
+
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .my-auto {
@@ -2828,6 +2842,22 @@ button,
   margin-left: 2rem;
 }
 
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.mr-12 {
+  margin-right: 3rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.ml-12 {
+  margin-left: 3rem;
+}
+
 .mt-auto {
   margin-top: auto;
 }
@@ -2956,6 +2986,10 @@ button,
   margin: -2rem;
 }
 
+.-m-12 {
+  margin: -3rem;
+}
+
 .-m-px {
   margin: -1px;
 }
@@ -3028,6 +3062,16 @@ button,
 .-mx-8 {
   margin-left: -2rem;
   margin-right: -2rem;
+}
+
+.-my-12 {
+  margin-top: -3rem;
+  margin-bottom: -3rem;
+}
+
+.-mx-12 {
+  margin-left: -3rem;
+  margin-right: -3rem;
 }
 
 .-my-px {
@@ -3152,6 +3196,22 @@ button,
   margin-left: -2rem;
 }
 
+.-mt-12 {
+  margin-top: -3rem;
+}
+
+.-mr-12 {
+  margin-right: -3rem;
+}
+
+.-mb-12 {
+  margin-bottom: -3rem;
+}
+
+.-ml-12 {
+  margin-left: -3rem;
+}
+
 .-mt-px {
   margin-top: -1px;
 }
@@ -3250,6 +3310,10 @@ button,
   padding: 2rem;
 }
 
+.p-12 {
+  padding: 3rem;
+}
+
 .p-px {
   padding: 1px;
 }
@@ -3322,6 +3386,16 @@ button,
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .py-px {
@@ -3444,6 +3518,22 @@ button,
 
 .pl-8 {
   padding-left: 2rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
+}
+
+.pr-12 {
+  padding-right: 3rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
+}
+
+.pl-12 {
+  padding-left: 3rem;
 }
 
 .pt-px {
@@ -6496,6 +6586,10 @@ button,
     margin: 2rem;
   }
 
+  .sm\:m-12 {
+    margin: 3rem;
+  }
+
   .sm\:m-auto {
     margin: auto;
   }
@@ -6572,6 +6666,16 @@ button,
   .sm\:mx-8 {
     margin-left: 2rem;
     margin-right: 2rem;
+  }
+
+  .sm\:my-12 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .sm\:mx-12 {
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 
   .sm\:my-auto {
@@ -6706,6 +6810,22 @@ button,
     margin-left: 2rem;
   }
 
+  .sm\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .sm\:mr-12 {
+    margin-right: 3rem;
+  }
+
+  .sm\:mb-12 {
+    margin-bottom: 3rem;
+  }
+
+  .sm\:ml-12 {
+    margin-left: 3rem;
+  }
+
   .sm\:mt-auto {
     margin-top: auto;
   }
@@ -6834,6 +6954,10 @@ button,
     margin: -2rem;
   }
 
+  .sm\:-m-12 {
+    margin: -3rem;
+  }
+
   .sm\:-m-px {
     margin: -1px;
   }
@@ -6906,6 +7030,16 @@ button,
   .sm\:-mx-8 {
     margin-left: -2rem;
     margin-right: -2rem;
+  }
+
+  .sm\:-my-12 {
+    margin-top: -3rem;
+    margin-bottom: -3rem;
+  }
+
+  .sm\:-mx-12 {
+    margin-left: -3rem;
+    margin-right: -3rem;
   }
 
   .sm\:-my-px {
@@ -7030,6 +7164,22 @@ button,
     margin-left: -2rem;
   }
 
+  .sm\:-mt-12 {
+    margin-top: -3rem;
+  }
+
+  .sm\:-mr-12 {
+    margin-right: -3rem;
+  }
+
+  .sm\:-mb-12 {
+    margin-bottom: -3rem;
+  }
+
+  .sm\:-ml-12 {
+    margin-left: -3rem;
+  }
+
   .sm\:-mt-px {
     margin-top: -1px;
   }
@@ -7128,6 +7278,10 @@ button,
     padding: 2rem;
   }
 
+  .sm\:p-12 {
+    padding: 3rem;
+  }
+
   .sm\:p-px {
     padding: 1px;
   }
@@ -7200,6 +7354,16 @@ button,
   .sm\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .sm\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .sm\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .sm\:py-px {
@@ -7322,6 +7486,22 @@ button,
 
   .sm\:pl-8 {
     padding-left: 2rem;
+  }
+
+  .sm\:pt-12 {
+    padding-top: 3rem;
+  }
+
+  .sm\:pr-12 {
+    padding-right: 3rem;
+  }
+
+  .sm\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
+  .sm\:pl-12 {
+    padding-left: 3rem;
   }
 
   .sm\:pt-px {
@@ -10367,6 +10547,10 @@ button,
     margin: 2rem;
   }
 
+  .md\:m-12 {
+    margin: 3rem;
+  }
+
   .md\:m-auto {
     margin: auto;
   }
@@ -10443,6 +10627,16 @@ button,
   .md\:mx-8 {
     margin-left: 2rem;
     margin-right: 2rem;
+  }
+
+  .md\:my-12 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .md\:mx-12 {
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 
   .md\:my-auto {
@@ -10577,6 +10771,22 @@ button,
     margin-left: 2rem;
   }
 
+  .md\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .md\:mr-12 {
+    margin-right: 3rem;
+  }
+
+  .md\:mb-12 {
+    margin-bottom: 3rem;
+  }
+
+  .md\:ml-12 {
+    margin-left: 3rem;
+  }
+
   .md\:mt-auto {
     margin-top: auto;
   }
@@ -10705,6 +10915,10 @@ button,
     margin: -2rem;
   }
 
+  .md\:-m-12 {
+    margin: -3rem;
+  }
+
   .md\:-m-px {
     margin: -1px;
   }
@@ -10777,6 +10991,16 @@ button,
   .md\:-mx-8 {
     margin-left: -2rem;
     margin-right: -2rem;
+  }
+
+  .md\:-my-12 {
+    margin-top: -3rem;
+    margin-bottom: -3rem;
+  }
+
+  .md\:-mx-12 {
+    margin-left: -3rem;
+    margin-right: -3rem;
   }
 
   .md\:-my-px {
@@ -10901,6 +11125,22 @@ button,
     margin-left: -2rem;
   }
 
+  .md\:-mt-12 {
+    margin-top: -3rem;
+  }
+
+  .md\:-mr-12 {
+    margin-right: -3rem;
+  }
+
+  .md\:-mb-12 {
+    margin-bottom: -3rem;
+  }
+
+  .md\:-ml-12 {
+    margin-left: -3rem;
+  }
+
   .md\:-mt-px {
     margin-top: -1px;
   }
@@ -10999,6 +11239,10 @@ button,
     padding: 2rem;
   }
 
+  .md\:p-12 {
+    padding: 3rem;
+  }
+
   .md\:p-px {
     padding: 1px;
   }
@@ -11071,6 +11315,16 @@ button,
   .md\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .md\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .md\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .md\:py-px {
@@ -11193,6 +11447,22 @@ button,
 
   .md\:pl-8 {
     padding-left: 2rem;
+  }
+
+  .md\:pt-12 {
+    padding-top: 3rem;
+  }
+
+  .md\:pr-12 {
+    padding-right: 3rem;
+  }
+
+  .md\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
+  .md\:pl-12 {
+    padding-left: 3rem;
   }
 
   .md\:pt-px {
@@ -14238,6 +14508,10 @@ button,
     margin: 2rem;
   }
 
+  .lg\:m-12 {
+    margin: 3rem;
+  }
+
   .lg\:m-auto {
     margin: auto;
   }
@@ -14314,6 +14588,16 @@ button,
   .lg\:mx-8 {
     margin-left: 2rem;
     margin-right: 2rem;
+  }
+
+  .lg\:my-12 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .lg\:mx-12 {
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 
   .lg\:my-auto {
@@ -14448,6 +14732,22 @@ button,
     margin-left: 2rem;
   }
 
+  .lg\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .lg\:mr-12 {
+    margin-right: 3rem;
+  }
+
+  .lg\:mb-12 {
+    margin-bottom: 3rem;
+  }
+
+  .lg\:ml-12 {
+    margin-left: 3rem;
+  }
+
   .lg\:mt-auto {
     margin-top: auto;
   }
@@ -14576,6 +14876,10 @@ button,
     margin: -2rem;
   }
 
+  .lg\:-m-12 {
+    margin: -3rem;
+  }
+
   .lg\:-m-px {
     margin: -1px;
   }
@@ -14648,6 +14952,16 @@ button,
   .lg\:-mx-8 {
     margin-left: -2rem;
     margin-right: -2rem;
+  }
+
+  .lg\:-my-12 {
+    margin-top: -3rem;
+    margin-bottom: -3rem;
+  }
+
+  .lg\:-mx-12 {
+    margin-left: -3rem;
+    margin-right: -3rem;
   }
 
   .lg\:-my-px {
@@ -14772,6 +15086,22 @@ button,
     margin-left: -2rem;
   }
 
+  .lg\:-mt-12 {
+    margin-top: -3rem;
+  }
+
+  .lg\:-mr-12 {
+    margin-right: -3rem;
+  }
+
+  .lg\:-mb-12 {
+    margin-bottom: -3rem;
+  }
+
+  .lg\:-ml-12 {
+    margin-left: -3rem;
+  }
+
   .lg\:-mt-px {
     margin-top: -1px;
   }
@@ -14870,6 +15200,10 @@ button,
     padding: 2rem;
   }
 
+  .lg\:p-12 {
+    padding: 3rem;
+  }
+
   .lg\:p-px {
     padding: 1px;
   }
@@ -14942,6 +15276,16 @@ button,
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .lg\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .lg\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .lg\:py-px {
@@ -15064,6 +15408,22 @@ button,
 
   .lg\:pl-8 {
     padding-left: 2rem;
+  }
+
+  .lg\:pt-12 {
+    padding-top: 3rem;
+  }
+
+  .lg\:pr-12 {
+    padding-right: 3rem;
+  }
+
+  .lg\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
+  .lg\:pl-12 {
+    padding-left: 3rem;
   }
 
   .lg\:pt-px {
@@ -18109,6 +18469,10 @@ button,
     margin: 2rem;
   }
 
+  .xl\:m-12 {
+    margin: 3rem;
+  }
+
   .xl\:m-auto {
     margin: auto;
   }
@@ -18185,6 +18549,16 @@ button,
   .xl\:mx-8 {
     margin-left: 2rem;
     margin-right: 2rem;
+  }
+
+  .xl\:my-12 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .xl\:mx-12 {
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 
   .xl\:my-auto {
@@ -18319,6 +18693,22 @@ button,
     margin-left: 2rem;
   }
 
+  .xl\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .xl\:mr-12 {
+    margin-right: 3rem;
+  }
+
+  .xl\:mb-12 {
+    margin-bottom: 3rem;
+  }
+
+  .xl\:ml-12 {
+    margin-left: 3rem;
+  }
+
   .xl\:mt-auto {
     margin-top: auto;
   }
@@ -18447,6 +18837,10 @@ button,
     margin: -2rem;
   }
 
+  .xl\:-m-12 {
+    margin: -3rem;
+  }
+
   .xl\:-m-px {
     margin: -1px;
   }
@@ -18519,6 +18913,16 @@ button,
   .xl\:-mx-8 {
     margin-left: -2rem;
     margin-right: -2rem;
+  }
+
+  .xl\:-my-12 {
+    margin-top: -3rem;
+    margin-bottom: -3rem;
+  }
+
+  .xl\:-mx-12 {
+    margin-left: -3rem;
+    margin-right: -3rem;
   }
 
   .xl\:-my-px {
@@ -18643,6 +19047,22 @@ button,
     margin-left: -2rem;
   }
 
+  .xl\:-mt-12 {
+    margin-top: -3rem;
+  }
+
+  .xl\:-mr-12 {
+    margin-right: -3rem;
+  }
+
+  .xl\:-mb-12 {
+    margin-bottom: -3rem;
+  }
+
+  .xl\:-ml-12 {
+    margin-left: -3rem;
+  }
+
   .xl\:-mt-px {
     margin-top: -1px;
   }
@@ -18741,6 +19161,10 @@ button,
     padding: 2rem;
   }
 
+  .xl\:p-12 {
+    padding: 3rem;
+  }
+
   .xl\:p-px {
     padding: 1px;
   }
@@ -18813,6 +19237,16 @@ button,
   .xl\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .xl\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .xl\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .xl\:py-px {
@@ -18935,6 +19369,22 @@ button,
 
   .xl\:pl-8 {
     padding-left: 2rem;
+  }
+
+  .xl\:pt-12 {
+    padding-top: 3rem;
+  }
+
+  .xl\:pr-12 {
+    padding-right: 3rem;
+  }
+
+  .xl\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
+  .xl\:pl-12 {
+    padding-left: 3rem;
   }
 
   .xl\:pt-px {

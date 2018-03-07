@@ -13,7 +13,7 @@
 /*custom nav links*/
 
 .nav-link{
-	@apply .block  .py-4  .no-underline  .text-white; 
+	@apply .block  .py-4  .no-underline  .text-teal; 
 }
 .nav-link:hover{
 		@apply .underline .text-grey-light;

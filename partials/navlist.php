@@ -2,13 +2,20 @@
 
 
 $nav_list = [
-	'badges',
 	'alerts',
+	'badges',
+	'breadcrumbs',
 	'buttons',
 	'cards',
-	'typography',
-	'navigation',
-	'header'
+	'footers',
+	'forms',
+	'globenav',
+	'herounits',
+	'lists',
+	'mediaobjects',
+	'navigationlist',
+	'pagination',
+	'tables'
 ];
 
 sort($nav_list);
