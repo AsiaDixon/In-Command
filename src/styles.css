@@ -78,6 +78,10 @@
   background-size: cover;
 }
 
+.bg-hero2 {
+  background: url(https://images.unsplash.com/photo-1490569910163-666f677dfc02?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a139aa811948bb5da779dcb00b09115b&auto=format&fit=crop&w=1650&q=80) center center no-repeat;
+  background-size: cover;
+}
 ./*btn {
   background: purple;
   border-radius: 240px;

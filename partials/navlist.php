@@ -9,13 +9,13 @@ $nav_list = [
 	'cards',
 	'footers',
 	'forms',
-	'globenav',
+	// 'globenav',
 	'herounits',
-	'lists',
-	'mediaobjects',
-	'navigationlist',
-	'pagination',
-	'tables'
+	// 'lists',
+	// 'mediaobjects',
+	// 'navigationlist',
+	// 'pagination',
+	// 'tables'
 ];
 
 sort($nav_list);

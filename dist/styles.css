@@ -673,6 +673,11 @@ button,
   background-size: cover;
 }
 
+.bg-hero2 {
+  background: url(https://images.unsplash.com/photo-1490569910163-666f677dfc02?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a139aa811948bb5da779dcb00b09115b&auto=format&fit=crop&w=1650&q=80) center center no-repeat;
+  background-size: cover;
+}
+
 ./*btn {
   background: purple;
   border-radius: 240px;
@@ -2698,6 +2703,10 @@ button,
   margin: 3rem;
 }
 
+.m-13 {
+  margin: 5.25rem;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -2784,6 +2793,16 @@ button,
 .mx-12 {
   margin-left: 3rem;
   margin-right: 3rem;
+}
+
+.my-13 {
+  margin-top: 5.25rem;
+  margin-bottom: 5.25rem;
+}
+
+.mx-13 {
+  margin-left: 5.25rem;
+  margin-right: 5.25rem;
 }
 
 .my-auto {
@@ -2932,6 +2951,22 @@ button,
 
 .ml-12 {
   margin-left: 3rem;
+}
+
+.mt-13 {
+  margin-top: 5.25rem;
+}
+
+.mr-13 {
+  margin-right: 5.25rem;
+}
+
+.mb-13 {
+  margin-bottom: 5.25rem;
+}
+
+.ml-13 {
+  margin-left: 5.25rem;
 }
 
 .mt-auto {
@@ -6666,6 +6701,10 @@ button,
     margin: 3rem;
   }
 
+  .sm\:m-13 {
+    margin: 5.25rem;
+  }
+
   .sm\:m-auto {
     margin: auto;
   }
@@ -6752,6 +6791,16 @@ button,
   .sm\:mx-12 {
     margin-left: 3rem;
     margin-right: 3rem;
+  }
+
+  .sm\:my-13 {
+    margin-top: 5.25rem;
+    margin-bottom: 5.25rem;
+  }
+
+  .sm\:mx-13 {
+    margin-left: 5.25rem;
+    margin-right: 5.25rem;
   }
 
   .sm\:my-auto {
@@ -6900,6 +6949,22 @@ button,
 
   .sm\:ml-12 {
     margin-left: 3rem;
+  }
+
+  .sm\:mt-13 {
+    margin-top: 5.25rem;
+  }
+
+  .sm\:mr-13 {
+    margin-right: 5.25rem;
+  }
+
+  .sm\:mb-13 {
+    margin-bottom: 5.25rem;
+  }
+
+  .sm\:ml-13 {
+    margin-left: 5.25rem;
   }
 
   .sm\:mt-auto {
@@ -10627,6 +10692,10 @@ button,
     margin: 3rem;
   }
 
+  .md\:m-13 {
+    margin: 5.25rem;
+  }
+
   .md\:m-auto {
     margin: auto;
   }
@@ -10713,6 +10782,16 @@ button,
   .md\:mx-12 {
     margin-left: 3rem;
     margin-right: 3rem;
+  }
+
+  .md\:my-13 {
+    margin-top: 5.25rem;
+    margin-bottom: 5.25rem;
+  }
+
+  .md\:mx-13 {
+    margin-left: 5.25rem;
+    margin-right: 5.25rem;
   }
 
   .md\:my-auto {
@@ -10861,6 +10940,22 @@ button,
 
   .md\:ml-12 {
     margin-left: 3rem;
+  }
+
+  .md\:mt-13 {
+    margin-top: 5.25rem;
+  }
+
+  .md\:mr-13 {
+    margin-right: 5.25rem;
+  }
+
+  .md\:mb-13 {
+    margin-bottom: 5.25rem;
+  }
+
+  .md\:ml-13 {
+    margin-left: 5.25rem;
   }
 
   .md\:mt-auto {
@@ -14588,6 +14683,10 @@ button,
     margin: 3rem;
   }
 
+  .lg\:m-13 {
+    margin: 5.25rem;
+  }
+
   .lg\:m-auto {
     margin: auto;
   }
@@ -14674,6 +14773,16 @@ button,
   .lg\:mx-12 {
     margin-left: 3rem;
     margin-right: 3rem;
+  }
+
+  .lg\:my-13 {
+    margin-top: 5.25rem;
+    margin-bottom: 5.25rem;
+  }
+
+  .lg\:mx-13 {
+    margin-left: 5.25rem;
+    margin-right: 5.25rem;
   }
 
   .lg\:my-auto {
@@ -14822,6 +14931,22 @@ button,
 
   .lg\:ml-12 {
     margin-left: 3rem;
+  }
+
+  .lg\:mt-13 {
+    margin-top: 5.25rem;
+  }
+
+  .lg\:mr-13 {
+    margin-right: 5.25rem;
+  }
+
+  .lg\:mb-13 {
+    margin-bottom: 5.25rem;
+  }
+
+  .lg\:ml-13 {
+    margin-left: 5.25rem;
   }
 
   .lg\:mt-auto {
@@ -18549,6 +18674,10 @@ button,
     margin: 3rem;
   }
 
+  .xl\:m-13 {
+    margin: 5.25rem;
+  }
+
   .xl\:m-auto {
     margin: auto;
   }
@@ -18635,6 +18764,16 @@ button,
   .xl\:mx-12 {
     margin-left: 3rem;
     margin-right: 3rem;
+  }
+
+  .xl\:my-13 {
+    margin-top: 5.25rem;
+    margin-bottom: 5.25rem;
+  }
+
+  .xl\:mx-13 {
+    margin-left: 5.25rem;
+    margin-right: 5.25rem;
   }
 
   .xl\:my-auto {
@@ -18783,6 +18922,22 @@ button,
 
   .xl\:ml-12 {
     margin-left: 3rem;
+  }
+
+  .xl\:mt-13 {
+    margin-top: 5.25rem;
+  }
+
+  .xl\:mr-13 {
+    margin-right: 5.25rem;
+  }
+
+  .xl\:mb-13 {
+    margin-bottom: 5.25rem;
+  }
+
+  .xl\:ml-13 {
+    margin-left: 5.25rem;
   }
 
   .xl\:mt-auto {
