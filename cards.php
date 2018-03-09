@@ -15,7 +15,4 @@
 
 
 <?php // DO NOT TOUCH ANYTHING BELOW THIS ; ?>
-<?php include 'partials/end.php';?><?php include 'partials/start.php';?>
-      <h1 class="text-5xl text-teal font-sans">Cards </h1>
-
 <?php include 'partials/end.php';?>
