@@ -10,13 +10,17 @@
 	}
 }
 
+
+.badge{
+	@apply .rounded-full .bg-green .uppercase .px-2 .py-1 .text-xs .font-bold .mr-3;
+}
 /*custom nav links*/
 
 .nav-link{
-	@apply .block  .py-4  .no-underline  .text-teal; 
+	@apply .block  .py-4  .no-underline  .text-teal-darker; 
 }
 .nav-link:hover{
-		@apply .underline .text-grey-light;
+		@apply .underline .text-teal-light;
 }
 @screen md{
 	.nav-link{

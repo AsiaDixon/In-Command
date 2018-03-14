@@ -1,3 +1,7 @@
 <badge>
-	<span class=" rounded-full bg-green uppercase px-2 py-1 text-xs font-bold mr-3">1</span>
+	<span class=" badge">1</span>
 </badge>
+<button class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-12 rounded-full ">
+  	Notification
+  	<span class=" badge">1</span>
+</button>

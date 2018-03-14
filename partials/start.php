@@ -14,9 +14,9 @@
   <body>
     <div id="app">
       <?php include 'header.php'; ?>
-      <div class="md:flex md:-mx-2">
-        <div class="w-full md:w-1/6  px-2">
+      <div class="md:flex md:items-stretch md:-mx-2">
+        <div class="w-full md:w-1/6 flex  px-2">
           <?php include 'global-nav.php'; ?>
         </div>
-      <div class="w-full md:w-3/3 px-2">
+      <div class="w-full md:w-2/3  px-2 md:mx-auto">
     
