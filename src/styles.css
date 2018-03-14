@@ -1,7 +1,7 @@
 @tailwind preflight;
 /*custom headers*/
 .header{
-	@apply .bg-green .p-4 .text-white;
+	@apply .border-b .p-4 .text-teal;
 }
 
 @screen md{
@@ -123,12 +123,12 @@
 }
 
 .vertical-m a.active {
-    background-color: #4CAF50;
+    background-color: #4dc0b5;
     color: white;
 }
 
 .pagination a {
-    color: black;
+    color: #0d3331;
     float: left;
     padding: 8px 16px;
     text-decoration: none;
@@ -136,11 +136,11 @@
 }
 
 .pagination a.active {
-    background-color: dodgerblue;
+    background-color: #4dc0b5;
     color: white;
 }
 
-.pagination a:hover:not(.active) {background-color: #ddd;}
+.pagination a:hover:not(.active) {background-color: #a0f0ed;}
 
 table {
     border-collapse: collapse;
@@ -155,6 +155,15 @@ th, td {
 }
 
 tr:nth-child(even){background-color: #f2f2f2}
+
+.sticky {
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 0;
+}
 
 @tailwind utilities;
 

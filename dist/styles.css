@@ -583,9 +583,9 @@ button,
 /*custom headers*/
 
 .header {
-  background-color: #38c172;
+  border-bottom-width: 1px;
   padding: 1rem;
-  color: #fff;
+  color: #4dc0b5;
 }
 
 @media (min-width: 768px) {
@@ -717,12 +717,12 @@ button,
 }
 
 .vertical-m a.active {
-  background-color: #4caf50;
+  background-color: #4dc0b5;
   color: white;
 }
 
 .pagination a {
-  color: black;
+  color: #0d3331;
   float: left;
   padding: 8px 16px;
   text-decoration: none;
@@ -730,12 +730,12 @@ button,
 }
 
 .pagination a.active {
-  background-color: dodgerblue;
+  background-color: #4dc0b5;
   color: white;
 }
 
 .pagination a:hover:not(.active) {
-  background-color: #ddd;
+  background-color: #a0f0ed;
 }
 
 table {
@@ -753,6 +753,15 @@ td {
 
 tr:nth-child(even) {
   background-color: #f2f2f2;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .container {
