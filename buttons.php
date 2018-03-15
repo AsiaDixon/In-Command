@@ -2,10 +2,10 @@
 <?php // DO NOT TOUCH ANYTHING ABOVE THIS ; ?>
 
 
-<h1 class="mb-8 text-5xl text-teal font-sans">Buttons</h1>
+<h1 class="mb-8 text-5xl text-teal-dark font-sans">Buttons</h1>
 
 <section class="mb-8">
-  <h2 class="border-b">Default Button</h2>
+  <h2 class="border-b text-teal">3D Button</h2>
   <?php include 'components/buttons/c-buttons.php';?>
 
   <h3>Sample Code</h3>
@@ -13,7 +13,7 @@
 </section>
 
 <section class="mb-8">
-  <h2 class="border-b">Ghost Button</h2>
+  <h2 class="border-b text-teal">Ghost Button</h2>
   <?php include 'components/buttons/c-ghostbtn.php';?>
 
   <h3>Sample Code</h3>

@@ -2,10 +2,10 @@
 <?php // DO NOT TOUCH ANYTHING ABOVE THIS ; ?>
 
 
-<h1 class="mb-8 text-5xl text-teal font-sans">Badges</h1>
+<h1 class="mb-8 text-5xl text-teal-dark font-sans">Badges</h1>
 
 <section class="mb-8">
-  <h2 class="border-b">Rounded Badge</h2>
+  <h2 class="border-b text-teal">Rounded Badge</h2>
   <?php include 'components/badges/c-badge.php';?>
 
   <h3>Sample Code</h3>
@@ -13,7 +13,7 @@
 </section>
 
 <section class="mb-8">
-  <h2 class="border-b"> Ghost Badge</h2>
+  <h2 class="border-b text-teal"> Ghost Badge</h2>
   <?php include 'components/badges/c-ghostbadge.php';?>
 
   <h3>Sample Code</h3>

@@ -2,10 +2,10 @@
 <?php // DO NOT TOUCH ANYTHING ABOVE THIS ; ?>
 
 
-<h1 class="mb-8 text-5xl text-teal font-sans">Forms</h1>
+<h1 class="mb-8 text-5xl text-teal-dark font-sans">Forms</h1>
 
 <section class="mb-8">
-  <h2 class="border-b">Login</h2>
+  <h2 class="border-b text-teal">Login</h2>
   <?php include 'components/forms/c-login.php';?>
 
   <h3>Sample Code</h3>
@@ -13,7 +13,7 @@
 </section>
 
 <section class="mb-8">
-  <h2 class="border-b">Selection</h2>
+  <h2 class="border-b text-teal">Selection</h2>
   <?php include 'components/forms/selection.php';?>
 
   <h3>Sample Code</h3>

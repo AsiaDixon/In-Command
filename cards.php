@@ -2,10 +2,10 @@
 <?php // DO NOT TOUCH ANYTHING ABOVE THIS ; ?>
 
 
-<h1 class="mb-8 text-5xl text-teal font-sans">Cards</h1>
+<h1 class="mb-8 text-5xl text-teal-dark font-sans">Cards</h1>
 
 <section class="mb-8">
-  <h2 class="border-b">Horizontal Align</h2>
+  <h2 class="border-b text-teal">Vertical Align</h2>
   <?php include 'components/cards/c-card.php';?>
 
   <h3>Sample Code</h3>

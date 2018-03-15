@@ -598,7 +598,7 @@ button,
 
 .badge {
   border-radius: 12000px;
-  background-color: #38c172;
+  background-color: #dae1e7;
   text-transform: uppercase;
   padding-left: .5rem;
   padding-right: .5rem;
@@ -636,6 +636,10 @@ button,
   content: ">";
 }
 
+.breadcrumb-item2:not(:last-child):after {
+  content: " >>";
+}
+
 #cardWrap {
   margin: 50px;
 }
@@ -647,16 +651,7 @@ button,
 }
 
 #cardcontentContainer {
-  width: 300px;
-  height: 200px;
-  padding: 20px;
-  box-sizing: border-box;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-#cardcontentContainer2 {
-  width: 240px;
+  /*width:250px;*/
   height: 200px;
   padding: 20px;
   box-sizing: border-box;
@@ -777,6 +772,35 @@ tr:nth-child(even) {
   top: 0;
 }
 
+.specialFeat {
+  position: relative;
+  color: #8795a1;
+  text-decoration-color: #fff;
+  text-decoration: none;
+  background-color: #dae1e7;
+  font-family: 'Cantarell';
+  font-weight: 700;
+  font-size: 1.125rem;
+  display: block;
+  padding: 6px;
+  border-radius: 12000px;
+  box-shadow: 0 4px 0, 0 6px 11px;
+  margin: 100px auto;
+  width: 160px;
+  text-align: center;
+  -webkit-transition: all .1s ease;
+     -moz-transition: all .1s ease;
+      -ms-transition: all .1s ease;
+       -o-transition: all .1s ease;
+          transition: all .1s ease;
+}
+
+.specialFeat:active {
+  box-shadow: 0 3px 0, 0 3px 6px;
+  position: relative;
+  top: 6px;
+}
+
 .container {
   width: 100%;
 }
@@ -864,6 +888,10 @@ tr:nth-child(even) {
 
 .bg-white {
   background-color: #fff;
+}
+
+.bg-white2 {
+  background-color: #f5ffff;
 }
 
 .bg-red-darkest {
@@ -1156,6 +1184,10 @@ tr:nth-child(even) {
 
 .hover\:bg-white:hover {
   background-color: #fff;
+}
+
+.hover\:bg-white2:hover {
+  background-color: #f5ffff;
 }
 
 .hover\:bg-red-darkest:hover {
@@ -1510,6 +1542,10 @@ tr:nth-child(even) {
   border-color: #fff;
 }
 
+.border-white2 {
+  border-color: #f5ffff;
+}
+
 .border-red-darkest {
   border-color: #3b0d0c;
 }
@@ -1800,6 +1836,10 @@ tr:nth-child(even) {
 
 .hover\:border-white:hover {
   border-color: #fff;
+}
+
+.hover\:border-white2:hover {
+  border-color: #f5ffff;
 }
 
 .hover\:border-red-darkest:hover {
@@ -3904,6 +3944,10 @@ tr:nth-child(even) {
   color: #fff;
 }
 
+.text-white2 {
+  color: #f5ffff;
+}
+
 .text-red-darkest {
   color: #3b0d0c;
 }
@@ -4194,6 +4238,10 @@ tr:nth-child(even) {
 
 .hover\:text-white:hover {
   color: #fff;
+}
+
+.hover\:text-white2:hover {
+  color: #f5ffff;
 }
 
 .hover\:text-red-darkest:hover {
@@ -4864,6 +4912,10 @@ tr:nth-child(even) {
     background-color: #fff;
   }
 
+  .sm\:bg-white2 {
+    background-color: #f5ffff;
+  }
+
   .sm\:bg-red-darkest {
     background-color: #3b0d0c;
   }
@@ -5154,6 +5206,10 @@ tr:nth-child(even) {
 
   .sm\:hover\:bg-white:hover {
     background-color: #fff;
+  }
+
+  .sm\:hover\:bg-white2:hover {
+    background-color: #f5ffff;
   }
 
   .sm\:hover\:bg-red-darkest:hover {
@@ -5508,6 +5564,10 @@ tr:nth-child(even) {
     border-color: #fff;
   }
 
+  .sm\:border-white2 {
+    border-color: #f5ffff;
+  }
+
   .sm\:border-red-darkest {
     border-color: #3b0d0c;
   }
@@ -5798,6 +5858,10 @@ tr:nth-child(even) {
 
   .sm\:hover\:border-white:hover {
     border-color: #fff;
+  }
+
+  .sm\:hover\:border-white2:hover {
+    border-color: #f5ffff;
   }
 
   .sm\:hover\:border-red-darkest:hover {
@@ -7894,6 +7958,10 @@ tr:nth-child(even) {
     color: #fff;
   }
 
+  .sm\:text-white2 {
+    color: #f5ffff;
+  }
+
   .sm\:text-red-darkest {
     color: #3b0d0c;
   }
@@ -8184,6 +8252,10 @@ tr:nth-child(even) {
 
   .sm\:hover\:text-white:hover {
     color: #fff;
+  }
+
+  .sm\:hover\:text-white2:hover {
+    color: #f5ffff;
   }
 
   .sm\:hover\:text-red-darkest:hover {
@@ -8855,6 +8927,10 @@ tr:nth-child(even) {
     background-color: #fff;
   }
 
+  .md\:bg-white2 {
+    background-color: #f5ffff;
+  }
+
   .md\:bg-red-darkest {
     background-color: #3b0d0c;
   }
@@ -9145,6 +9221,10 @@ tr:nth-child(even) {
 
   .md\:hover\:bg-white:hover {
     background-color: #fff;
+  }
+
+  .md\:hover\:bg-white2:hover {
+    background-color: #f5ffff;
   }
 
   .md\:hover\:bg-red-darkest:hover {
@@ -9499,6 +9579,10 @@ tr:nth-child(even) {
     border-color: #fff;
   }
 
+  .md\:border-white2 {
+    border-color: #f5ffff;
+  }
+
   .md\:border-red-darkest {
     border-color: #3b0d0c;
   }
@@ -9789,6 +9873,10 @@ tr:nth-child(even) {
 
   .md\:hover\:border-white:hover {
     border-color: #fff;
+  }
+
+  .md\:hover\:border-white2:hover {
+    border-color: #f5ffff;
   }
 
   .md\:hover\:border-red-darkest:hover {
@@ -11885,6 +11973,10 @@ tr:nth-child(even) {
     color: #fff;
   }
 
+  .md\:text-white2 {
+    color: #f5ffff;
+  }
+
   .md\:text-red-darkest {
     color: #3b0d0c;
   }
@@ -12175,6 +12267,10 @@ tr:nth-child(even) {
 
   .md\:hover\:text-white:hover {
     color: #fff;
+  }
+
+  .md\:hover\:text-white2:hover {
+    color: #f5ffff;
   }
 
   .md\:hover\:text-red-darkest:hover {
@@ -12846,6 +12942,10 @@ tr:nth-child(even) {
     background-color: #fff;
   }
 
+  .lg\:bg-white2 {
+    background-color: #f5ffff;
+  }
+
   .lg\:bg-red-darkest {
     background-color: #3b0d0c;
   }
@@ -13136,6 +13236,10 @@ tr:nth-child(even) {
 
   .lg\:hover\:bg-white:hover {
     background-color: #fff;
+  }
+
+  .lg\:hover\:bg-white2:hover {
+    background-color: #f5ffff;
   }
 
   .lg\:hover\:bg-red-darkest:hover {
@@ -13490,6 +13594,10 @@ tr:nth-child(even) {
     border-color: #fff;
   }
 
+  .lg\:border-white2 {
+    border-color: #f5ffff;
+  }
+
   .lg\:border-red-darkest {
     border-color: #3b0d0c;
   }
@@ -13780,6 +13888,10 @@ tr:nth-child(even) {
 
   .lg\:hover\:border-white:hover {
     border-color: #fff;
+  }
+
+  .lg\:hover\:border-white2:hover {
+    border-color: #f5ffff;
   }
 
   .lg\:hover\:border-red-darkest:hover {
@@ -15876,6 +15988,10 @@ tr:nth-child(even) {
     color: #fff;
   }
 
+  .lg\:text-white2 {
+    color: #f5ffff;
+  }
+
   .lg\:text-red-darkest {
     color: #3b0d0c;
   }
@@ -16166,6 +16282,10 @@ tr:nth-child(even) {
 
   .lg\:hover\:text-white:hover {
     color: #fff;
+  }
+
+  .lg\:hover\:text-white2:hover {
+    color: #f5ffff;
   }
 
   .lg\:hover\:text-red-darkest:hover {
@@ -16837,6 +16957,10 @@ tr:nth-child(even) {
     background-color: #fff;
   }
 
+  .xl\:bg-white2 {
+    background-color: #f5ffff;
+  }
+
   .xl\:bg-red-darkest {
     background-color: #3b0d0c;
   }
@@ -17127,6 +17251,10 @@ tr:nth-child(even) {
 
   .xl\:hover\:bg-white:hover {
     background-color: #fff;
+  }
+
+  .xl\:hover\:bg-white2:hover {
+    background-color: #f5ffff;
   }
 
   .xl\:hover\:bg-red-darkest:hover {
@@ -17481,6 +17609,10 @@ tr:nth-child(even) {
     border-color: #fff;
   }
 
+  .xl\:border-white2 {
+    border-color: #f5ffff;
+  }
+
   .xl\:border-red-darkest {
     border-color: #3b0d0c;
   }
@@ -17771,6 +17903,10 @@ tr:nth-child(even) {
 
   .xl\:hover\:border-white:hover {
     border-color: #fff;
+  }
+
+  .xl\:hover\:border-white2:hover {
+    border-color: #f5ffff;
   }
 
   .xl\:hover\:border-red-darkest:hover {
@@ -19867,6 +20003,10 @@ tr:nth-child(even) {
     color: #fff;
   }
 
+  .xl\:text-white2 {
+    color: #f5ffff;
+  }
+
   .xl\:text-red-darkest {
     color: #3b0d0c;
   }
@@ -20157,6 +20297,10 @@ tr:nth-child(even) {
 
   .xl\:hover\:text-white:hover {
     color: #fff;
+  }
+
+  .xl\:hover\:text-white2:hover {
+    color: #f5ffff;
   }
 
   .xl\:hover\:text-red-darkest:hover {

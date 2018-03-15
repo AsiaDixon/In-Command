@@ -18,5 +18,5 @@
         <div class="w-full md:w-1/6 flex  px-2">
           <?php include 'global-nav.php'; ?>
         </div>
-      <div class="w-full md:w-2/3  px-2 md:mx-auto">
+      <div class="w-full md:w-2/3  px-2 md:mx-auto bg-grey-lightest">
     
