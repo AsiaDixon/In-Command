@@ -1,4 +1,4 @@
-<div class="my-8 mx-auto w-1/2">
+<div class="my-8 mx-auto w-1/2 border border-round border-grey shadow-md">
   <article class="flex flex-wrap -mx-2">
     <div class="w-1/6 px-2">
       <img src="http://via.placeholder.com/240x240" alt="Name">

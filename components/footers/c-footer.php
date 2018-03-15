@@ -57,27 +57,6 @@
 		
 	</div>
 
-
-  
-	<!-- <div class="item" >
-		<ul class="list-reset ">
-		  <li class="mr-6 mb-4">
-			    <a class="text-grey-dark hover:text-grey-darker" href="#">About</a>
-			  </li>
-			  <li class="mr-6 mb-4">
-			    <a class="text-grey-dark hover:text-grey-darker" href="#">Contact Us</a>
-			  </li>
-			  <li class="mr-6 mb-4">
-			    <a class="text-grey-dark hover:text-grey-darker" href="#">Link</a>
-			  </li>
-			  <li class="mr-6 mb-4">
-			    <a class="text-grey-dark hover:text-grey-darker" href="#">Link</a>
-			  </li>
-
-		  </li>
-		</ul>
-	</div>
- -->
 </div>
 
 
