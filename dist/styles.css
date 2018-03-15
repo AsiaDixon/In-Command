@@ -651,7 +651,6 @@ button,
 }
 
 #cardcontentContainer {
-  /*width:250px;*/
   height: 200px;
   padding: 20px;
   box-sizing: border-box;
@@ -669,11 +668,49 @@ button,
   font-size: .95em;
 }
 
+#cardWrap2 {
+  margin: 50px;
+}
+
+#cardWrap2> img {
+  width: 200px;
+  display: inline-block;
+  /*vertical-align: ;*/
+}
+
+#cardcontentContainer2 {
+  /*width:250px;*//*width:200px;
+  padding: 20px;*/
+  box-sizing: border-box;
+  display: inline-block;
+  position: absolute;
+  /*vertical-align: middle;*/
+}
+
+#cardcontentContainer2> h2 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+#cardcontentContainer2> p {
+  line-height: 1.25;
+  font-size: .95em;
+}
+
 .footer {
   width: 100%;
   height: 300px;
-  background-color: #282c2f;
+  background-color: #dae1e7;
   margin-top: 40px;
+}
+
+.item {
+  align-self: auto;
+}
+
+.bg-hcard {
+  background: url(https://images.unsplash.com/photo-1496302912295-8d0451c184e2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f93899b81c4e681126873025987d6ba2&auto=format&fit=crop&w=1655&q=80) no-repeat;
+  background-size: ;
 }
 
 .bg-hero {
@@ -2821,7 +2858,7 @@ tr:nth-child(even) {
 }
 
 .m-13 {
-  margin: 5.25rem;
+  margin: 30rem;
 }
 
 .m-auto {
@@ -2913,13 +2950,13 @@ tr:nth-child(even) {
 }
 
 .my-13 {
-  margin-top: 5.25rem;
-  margin-bottom: 5.25rem;
+  margin-top: 30rem;
+  margin-bottom: 30rem;
 }
 
 .mx-13 {
-  margin-left: 5.25rem;
-  margin-right: 5.25rem;
+  margin-left: 30rem;
+  margin-right: 30rem;
 }
 
 .my-auto {
@@ -3071,19 +3108,19 @@ tr:nth-child(even) {
 }
 
 .mt-13 {
-  margin-top: 5.25rem;
+  margin-top: 30rem;
 }
 
 .mr-13 {
-  margin-right: 5.25rem;
+  margin-right: 30rem;
 }
 
 .mb-13 {
-  margin-bottom: 5.25rem;
+  margin-bottom: 30rem;
 }
 
 .ml-13 {
-  margin-left: 5.25rem;
+  margin-left: 30rem;
 }
 
 .mt-auto {
@@ -3218,6 +3255,10 @@ tr:nth-child(even) {
   margin: -3rem;
 }
 
+.-m-13 {
+  margin: -16rem;
+}
+
 .-m-px {
   margin: -1px;
 }
@@ -3300,6 +3341,16 @@ tr:nth-child(even) {
 .-mx-12 {
   margin-left: -3rem;
   margin-right: -3rem;
+}
+
+.-my-13 {
+  margin-top: -16rem;
+  margin-bottom: -16rem;
+}
+
+.-mx-13 {
+  margin-left: -16rem;
+  margin-right: -16rem;
 }
 
 .-my-px {
@@ -3438,6 +3489,22 @@ tr:nth-child(even) {
 
 .-ml-12 {
   margin-left: -3rem;
+}
+
+.-mt-13 {
+  margin-top: -16rem;
+}
+
+.-mr-13 {
+  margin-right: -16rem;
+}
+
+.-mb-13 {
+  margin-bottom: -16rem;
+}
+
+.-ml-13 {
+  margin-left: -16rem;
 }
 
 .-mt-px {
@@ -6843,7 +6910,7 @@ tr:nth-child(even) {
   }
 
   .sm\:m-13 {
-    margin: 5.25rem;
+    margin: 30rem;
   }
 
   .sm\:m-auto {
@@ -6935,13 +7002,13 @@ tr:nth-child(even) {
   }
 
   .sm\:my-13 {
-    margin-top: 5.25rem;
-    margin-bottom: 5.25rem;
+    margin-top: 30rem;
+    margin-bottom: 30rem;
   }
 
   .sm\:mx-13 {
-    margin-left: 5.25rem;
-    margin-right: 5.25rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
   }
 
   .sm\:my-auto {
@@ -7093,19 +7160,19 @@ tr:nth-child(even) {
   }
 
   .sm\:mt-13 {
-    margin-top: 5.25rem;
+    margin-top: 30rem;
   }
 
   .sm\:mr-13 {
-    margin-right: 5.25rem;
+    margin-right: 30rem;
   }
 
   .sm\:mb-13 {
-    margin-bottom: 5.25rem;
+    margin-bottom: 30rem;
   }
 
   .sm\:ml-13 {
-    margin-left: 5.25rem;
+    margin-left: 30rem;
   }
 
   .sm\:mt-auto {
@@ -7240,6 +7307,10 @@ tr:nth-child(even) {
     margin: -3rem;
   }
 
+  .sm\:-m-13 {
+    margin: -16rem;
+  }
+
   .sm\:-m-px {
     margin: -1px;
   }
@@ -7322,6 +7393,16 @@ tr:nth-child(even) {
   .sm\:-mx-12 {
     margin-left: -3rem;
     margin-right: -3rem;
+  }
+
+  .sm\:-my-13 {
+    margin-top: -16rem;
+    margin-bottom: -16rem;
+  }
+
+  .sm\:-mx-13 {
+    margin-left: -16rem;
+    margin-right: -16rem;
   }
 
   .sm\:-my-px {
@@ -7460,6 +7541,22 @@ tr:nth-child(even) {
 
   .sm\:-ml-12 {
     margin-left: -3rem;
+  }
+
+  .sm\:-mt-13 {
+    margin-top: -16rem;
+  }
+
+  .sm\:-mr-13 {
+    margin-right: -16rem;
+  }
+
+  .sm\:-mb-13 {
+    margin-bottom: -16rem;
+  }
+
+  .sm\:-ml-13 {
+    margin-left: -16rem;
   }
 
   .sm\:-mt-px {
@@ -10858,7 +10955,7 @@ tr:nth-child(even) {
   }
 
   .md\:m-13 {
-    margin: 5.25rem;
+    margin: 30rem;
   }
 
   .md\:m-auto {
@@ -10950,13 +11047,13 @@ tr:nth-child(even) {
   }
 
   .md\:my-13 {
-    margin-top: 5.25rem;
-    margin-bottom: 5.25rem;
+    margin-top: 30rem;
+    margin-bottom: 30rem;
   }
 
   .md\:mx-13 {
-    margin-left: 5.25rem;
-    margin-right: 5.25rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
   }
 
   .md\:my-auto {
@@ -11108,19 +11205,19 @@ tr:nth-child(even) {
   }
 
   .md\:mt-13 {
-    margin-top: 5.25rem;
+    margin-top: 30rem;
   }
 
   .md\:mr-13 {
-    margin-right: 5.25rem;
+    margin-right: 30rem;
   }
 
   .md\:mb-13 {
-    margin-bottom: 5.25rem;
+    margin-bottom: 30rem;
   }
 
   .md\:ml-13 {
-    margin-left: 5.25rem;
+    margin-left: 30rem;
   }
 
   .md\:mt-auto {
@@ -11255,6 +11352,10 @@ tr:nth-child(even) {
     margin: -3rem;
   }
 
+  .md\:-m-13 {
+    margin: -16rem;
+  }
+
   .md\:-m-px {
     margin: -1px;
   }
@@ -11337,6 +11438,16 @@ tr:nth-child(even) {
   .md\:-mx-12 {
     margin-left: -3rem;
     margin-right: -3rem;
+  }
+
+  .md\:-my-13 {
+    margin-top: -16rem;
+    margin-bottom: -16rem;
+  }
+
+  .md\:-mx-13 {
+    margin-left: -16rem;
+    margin-right: -16rem;
   }
 
   .md\:-my-px {
@@ -11475,6 +11586,22 @@ tr:nth-child(even) {
 
   .md\:-ml-12 {
     margin-left: -3rem;
+  }
+
+  .md\:-mt-13 {
+    margin-top: -16rem;
+  }
+
+  .md\:-mr-13 {
+    margin-right: -16rem;
+  }
+
+  .md\:-mb-13 {
+    margin-bottom: -16rem;
+  }
+
+  .md\:-ml-13 {
+    margin-left: -16rem;
   }
 
   .md\:-mt-px {
@@ -14873,7 +15000,7 @@ tr:nth-child(even) {
   }
 
   .lg\:m-13 {
-    margin: 5.25rem;
+    margin: 30rem;
   }
 
   .lg\:m-auto {
@@ -14965,13 +15092,13 @@ tr:nth-child(even) {
   }
 
   .lg\:my-13 {
-    margin-top: 5.25rem;
-    margin-bottom: 5.25rem;
+    margin-top: 30rem;
+    margin-bottom: 30rem;
   }
 
   .lg\:mx-13 {
-    margin-left: 5.25rem;
-    margin-right: 5.25rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
   }
 
   .lg\:my-auto {
@@ -15123,19 +15250,19 @@ tr:nth-child(even) {
   }
 
   .lg\:mt-13 {
-    margin-top: 5.25rem;
+    margin-top: 30rem;
   }
 
   .lg\:mr-13 {
-    margin-right: 5.25rem;
+    margin-right: 30rem;
   }
 
   .lg\:mb-13 {
-    margin-bottom: 5.25rem;
+    margin-bottom: 30rem;
   }
 
   .lg\:ml-13 {
-    margin-left: 5.25rem;
+    margin-left: 30rem;
   }
 
   .lg\:mt-auto {
@@ -15270,6 +15397,10 @@ tr:nth-child(even) {
     margin: -3rem;
   }
 
+  .lg\:-m-13 {
+    margin: -16rem;
+  }
+
   .lg\:-m-px {
     margin: -1px;
   }
@@ -15352,6 +15483,16 @@ tr:nth-child(even) {
   .lg\:-mx-12 {
     margin-left: -3rem;
     margin-right: -3rem;
+  }
+
+  .lg\:-my-13 {
+    margin-top: -16rem;
+    margin-bottom: -16rem;
+  }
+
+  .lg\:-mx-13 {
+    margin-left: -16rem;
+    margin-right: -16rem;
   }
 
   .lg\:-my-px {
@@ -15490,6 +15631,22 @@ tr:nth-child(even) {
 
   .lg\:-ml-12 {
     margin-left: -3rem;
+  }
+
+  .lg\:-mt-13 {
+    margin-top: -16rem;
+  }
+
+  .lg\:-mr-13 {
+    margin-right: -16rem;
+  }
+
+  .lg\:-mb-13 {
+    margin-bottom: -16rem;
+  }
+
+  .lg\:-ml-13 {
+    margin-left: -16rem;
   }
 
   .lg\:-mt-px {
@@ -18888,7 +19045,7 @@ tr:nth-child(even) {
   }
 
   .xl\:m-13 {
-    margin: 5.25rem;
+    margin: 30rem;
   }
 
   .xl\:m-auto {
@@ -18980,13 +19137,13 @@ tr:nth-child(even) {
   }
 
   .xl\:my-13 {
-    margin-top: 5.25rem;
-    margin-bottom: 5.25rem;
+    margin-top: 30rem;
+    margin-bottom: 30rem;
   }
 
   .xl\:mx-13 {
-    margin-left: 5.25rem;
-    margin-right: 5.25rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
   }
 
   .xl\:my-auto {
@@ -19138,19 +19295,19 @@ tr:nth-child(even) {
   }
 
   .xl\:mt-13 {
-    margin-top: 5.25rem;
+    margin-top: 30rem;
   }
 
   .xl\:mr-13 {
-    margin-right: 5.25rem;
+    margin-right: 30rem;
   }
 
   .xl\:mb-13 {
-    margin-bottom: 5.25rem;
+    margin-bottom: 30rem;
   }
 
   .xl\:ml-13 {
-    margin-left: 5.25rem;
+    margin-left: 30rem;
   }
 
   .xl\:mt-auto {
@@ -19285,6 +19442,10 @@ tr:nth-child(even) {
     margin: -3rem;
   }
 
+  .xl\:-m-13 {
+    margin: -16rem;
+  }
+
   .xl\:-m-px {
     margin: -1px;
   }
@@ -19367,6 +19528,16 @@ tr:nth-child(even) {
   .xl\:-mx-12 {
     margin-left: -3rem;
     margin-right: -3rem;
+  }
+
+  .xl\:-my-13 {
+    margin-top: -16rem;
+    margin-bottom: -16rem;
+  }
+
+  .xl\:-mx-13 {
+    margin-left: -16rem;
+    margin-right: -16rem;
   }
 
   .xl\:-my-px {
@@ -19505,6 +19676,22 @@ tr:nth-child(even) {
 
   .xl\:-ml-12 {
     margin-left: -3rem;
+  }
+
+  .xl\:-mt-13 {
+    margin-top: -16rem;
+  }
+
+  .xl\:-mr-13 {
+    margin-right: -16rem;
+  }
+
+  .xl\:-mb-13 {
+    margin-bottom: -16rem;
+  }
+
+  .xl\:-ml-13 {
+    margin-left: -16rem;
   }
 
   .xl\:-mt-px {

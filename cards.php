@@ -12,7 +12,13 @@
   <pre><code class="html"><?php echo htmlspecialchars(file_get_contents('components/cards/c-card.php'), ENT_QUOTES); ?></code></pre>
 </section>
 
+<section class="mb-8">
+  <h2 class="border-b text-teal">Horizontal Align</h2>
+  <?php include 'components/cards/c-hcard.php';?>
 
+  <h3>Sample Code</h3>
+  <pre><code class="html"><?php echo htmlspecialchars(file_get_contents('components/cards/c-hcard.php'), ENT_QUOTES); ?></code></pre>
+</section>
 
 <?php // DO NOT TOUCH ANYTHING BELOW THIS ; ?>
 <?php include 'partials/end.php';?>
