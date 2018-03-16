@@ -7,7 +7,7 @@
  		</a>
  	</span>
       <h1 class="py-4"><a class='no-underline text-teal' href="/"> InCommand </a></h1>
-      <button v-on:click="showMenu = !showMenu" class="md:hidden text-white">
+      <button v-on:click="showMenu = !showMenu" class="md:hidden text-teal">
             <i class="fas fa-2x fa-bars"></i>
       </button>
       <div class="flex justify-start text-teal">
